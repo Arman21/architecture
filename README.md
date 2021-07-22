@@ -21,7 +21,7 @@ After downloading and installing requirements and after cloning repository run t
 
 Development server
 
-Run 'ng serve' for a dev server. Then navigate to `http://localhost:4200/` or run 'ng serve -o' it will open browser with that ur,
+Run 'ng serve' for a dev server. Then navigate to `http://localhost:4200/` or run 'ng serve -o' it will open browser with that url,
 
 
 Code scaffolding
