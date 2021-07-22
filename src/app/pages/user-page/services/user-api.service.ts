@@ -6,7 +6,6 @@ import { APIs as apis} from 'src/environments/environment';
 import { HandleError } from 'src/app/models/errorHandling';
 import { User } from 'src/app/models/user';
 import { _options } from 'src/app/models/options';
-
 @Injectable({
   providedIn: 'root'
 })

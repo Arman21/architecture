@@ -10,7 +10,7 @@ export interface User {
   city: string;
   phoneNumber: string;
   emailAddress: string;
-  workPlace: userWorkPlace;
+  workPlace?: userWorkPlace;
   wifeOrHusband: number | null;
   children?: boolean;
   isAdmin: boolean;

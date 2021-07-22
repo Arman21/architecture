@@ -1,7 +1,8 @@
 export interface userWorkPlace {
-  company: string;
+  companyName: string;
   companyType: string;
   jobType: string;
+  jobCurrentLocation: string,
   jobTitle: string;
   position: string;
   keySkills: string;
