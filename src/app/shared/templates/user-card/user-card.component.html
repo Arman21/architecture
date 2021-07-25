@@ -1,0 +1,17 @@
+<div *ngIf='list !== undefined' class='row'>
+  <ng-container *ngFor='let item of list; let i = index'>
+    <div class='col-md-4 elem-center'>
+      <div class='card b-r' style='width: 18rem;'>
+        <img [src]='item.avatar' class='card-img-top b-r' alt='user_profile_image'>
+        <div class='card-body'>
+          <h5 class='card-title title'>{{ item.name }} {{ item.surName }}</h5>
+          <p class='card-text'>{{ item.workPlace?.position }} at {{ item.workPlace?.companyName }}</p>
+          <p class='card-text'>{{ item.workPlace?.projectRole }}*</p>
+          <a [class]='item.favoriteColor' [routerLink]='["/" + pageUrl, item.id]' title='Click'>
+            {{ offer }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

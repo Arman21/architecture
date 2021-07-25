@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomePageRoutingModule } from './home-page-routing.module';
 import { HomeComponent } from './components/home/home.component';
+import { TemplatesModule } from 'src/app/shared/templates/templates.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     CommonModule,
-    HomePageRoutingModule
+    TemplatesModule
   ]
 })
 

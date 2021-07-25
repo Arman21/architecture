@@ -9,16 +9,17 @@
       "city": "Toronto",
       "phoneNumber": "+1567098423",
       "emailAddress": "millerstephen528@gmail.com",
+      "avatar": "assets/Images/man_user_1.jpg",
       "workPlace": {
         "companyName": "EPAM Systems",
         "companyType": "Information technologies and services",
         "jobType": "permanent",
         "jobCurrentLocation": "Canada, Toronto",
-        "jobTitle": "software engineer",
-        "position": "junior software engineer",
+        "jobTitle": "Software engineer",
+        "position": "Junior software engineer",
         "keySkills": "JavaScript",
         "project": true,
-        "projectRole": "key developer",
+        "projectRole": "Key developer",
         "projectName": "Vrif-VHQ",
         "category": "production",
         "oldProjects": 1,
@@ -29,6 +30,7 @@
       "isAdmin": false,
       "id": 557700,
       "hobbies": ["watching tv", "walking", "reading", "coding", "drinking coffee"],
+      "favoriteColor": "btn btn-success",
       "human": true
     },
     {
@@ -40,16 +42,17 @@
       "city": "Ottawa",
       "phoneNumber": "+5432567098",
       "emailAddress": "marie.nieght.75@gmail.com",
+      "avatar": "assets/Images/woman_user_2.png",
       "workPlace": {
         "companyName": "Adobe",
         "companyType": "Information technologies and services",
         "jobType": "permanent",
         "jobCurrentLocation": "Canada, Ottawa",
-        "jobTitle": "software engineer",
-        "position": "software engineer",
+        "jobTitle": "Software engineer",
+        "position": "Software engineer",
         "keySkills": "JavaScript",
         "project": true,
-        "projectRole": "key developer",
+        "projectRole": "Key developer",
         "category": "production",
         "oldProjects": 2,
         "workType": "offline and not remote"
@@ -59,6 +62,7 @@
       "isAdmin": false,
       "id": "99004",
       "hobbies": ["watching tv", "walking", "talking", "cleaning", "drinking coffee", "traveling"],
+      "favoriteColor": "btn btn-warning",
       "human": true
     },
     {
@@ -70,16 +74,17 @@
       "city": "Los Angeles",
       "phoneNumber": "+1234765890",
       "emailAddress": "johnclark.2009@gmail.com",
+      "avatar": "assets/Images/man_user_3.png",
       "workPlace": {
         "companyName": "Adobe",
         "companyType": "Information technologies and services",
         "jobType": "permanent",
         "jobCurrentLocation": "USA, California, Los Angeles",
-        "jobTitle": "software engineer",
-        "position": "senior software engineer",
+        "jobTitle": "Software engineer",
+        "position": "Senior software engineer",
         "keySkills": "JavaScript",
         "project": true,
-        "projectRole": "key developer",
+        "projectRole": "Dey developer",
         "category": "production",
         "oldProjects": 4,
         "workType": "remote"
@@ -89,6 +94,7 @@
       "isAdmin": true,
       "id": 770055,
       "hobbies": ["watching tv", "walking", "painting", "listening music", "drinking coffee"],
+      "favoriteColor": "btn btn-secondary",
       "human": true
     }
   ]

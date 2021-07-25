@@ -10,11 +10,13 @@ export interface User {
   city: string;
   phoneNumber: string;
   emailAddress: string;
+  avatar: string;
   workPlace?: userWorkPlace;
   wifeOrHusband: number | null;
   children?: boolean;
   isAdmin: boolean;
   id: number | string;
   hobbies: string[];
+  favoriteColor: string;
   human?: boolean
 }

@@ -1,0 +1,16 @@
+.card {
+  background-color: rgb(119,245,245) !important;
+}
+
+.card:hover {
+  border: 15px solid #fff !important;
+}
+
+.card-img-top {
+  background-color: #fff !important;
+  z-index: 0 !important
+}
+
+.title {
+  color: rgb(243,133,8) !important;
+}

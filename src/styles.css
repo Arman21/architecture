@@ -1,0 +1,15 @@
+.elem-center {
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 5rem;
+}
+
+.b-r {
+  border-radius: 1.25rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .elem-center {
+    margin-bottom: 3.438rem;
+  }
+}
