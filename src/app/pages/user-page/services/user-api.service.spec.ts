@@ -8,8 +8,4 @@ describe('UserApiService', () => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(UserApiService);
   });
-
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
 });
