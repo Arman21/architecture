@@ -9,7 +9,7 @@ import { User } from 'src/app/models/user';
 })
 
 export class UserCardComponent implements OnInit {
-  @Input() list: User[] | undefined;
+  @Input() list!: User[];
 
   pageUrl: string = urls[1];
   offer: string = 'Go to user profile';

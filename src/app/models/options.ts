@@ -7,7 +7,7 @@ type Options<T> = {
   context?: HttpContext | undefined,
   params?: HttpParams | { [param: string]: string | number | boolean | ReadonlyArray<string | number | boolean> } | undefined,
   reportProgress?: boolean | undefined,
-  responseType: "json" | undefined,
+  responseType?: "json" | undefined,
   withCredentials?: boolean | undefined
 };
 
