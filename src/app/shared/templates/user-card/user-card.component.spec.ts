@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { UserCardComponent } from './user-card.component';
-import { URLs as urls} from './../../../../environments/environment';
+import { PAGE_URLS as urls} from './../../../../environments/environment';
 import { User } from './../../../models/user';
-import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 
 describe('UserCardComponent', () => {
   let component: UserCardComponent;
@@ -41,7 +40,7 @@ describe('UserCardComponent', () => {
   });
 
   it('should have same value with urls[1].', (): void => {
-    expect(url).toEqual(urls[1]);
+    expect(url).toEqual(urls.oneUserPage);
   });
 
   it('should have property offer.', (): void => {

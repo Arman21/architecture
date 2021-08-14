@@ -1,24 +1,32 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { URLs as urls } from 'src/environments/environment';
+import { PAGE_URLS as urls } from 'src/environments/environment';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: urls[0],
+    redirectTo: urls.signUpPage,
     pathMatch: 'full'
   },
   {
-    path: urls[0],
+    path: urls.signUpPage,
+    loadChildren: async (): Promise<any> => (await import (`./pages/sign-up/sign-up.module`)).SignUpModule
+  },
+  {
+    path: urls.signInPage,
+    loadChildren: async (): Promise<any> => (await import (`./pages/sign-in/sign-in.module`)).SignInModule
+  },
+  {
+    path: urls.usersPage,
     loadChildren: async (): Promise<any> => (await import (`./pages/home-page/home-page.module`)).HomePageModule
   },
   {
-    path: `${urls[1]}/:id`,
+    path: `${urls.oneUserPage}/:id`,
     loadChildren: async (): Promise<any> => (await import (`./pages/user-page/user-page.module`)).UserPageModule
   },
   {
     path: '**',
-    redirectTo: urls[0],
+    redirectTo: urls.signInPage,
     pathMatch: 'full'
   }
 ];
