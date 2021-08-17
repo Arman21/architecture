@@ -23,6 +23,11 @@ Development server
 
 Run 'ng serve' for a dev server. Then navigate to `http://localhost:4200/` or run 'ng serve -o' it will open browser with that url,
 
+Firestore Database and Authentication
+
+This app works with firestore database and authentication of google firebase, you can find related demo lesson (tutorial)
+by visiting to this url https://www.positronx.io/full-angular-7-firebase-authentication-system/,
+
 
 Code scaffolding
 
