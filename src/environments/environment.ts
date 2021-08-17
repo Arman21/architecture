@@ -1,6 +1,6 @@
-import { ApiEndpoints } from './../app/models/apiEndpoint';
-import { PageUrls } from './../app/models/pageUrls';
-import { firebaseConfig } from './../app/models/firebaseConfig';
+import { ApiEndpoints } from './../app/models/interfaces/apiEndpoint';
+import { PageUrls } from './../app/models/interfaces/pageUrls';
+import { firebaseConfig } from './../app/models/interfaces/firebaseConfig';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.

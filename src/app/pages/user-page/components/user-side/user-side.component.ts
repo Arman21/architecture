@@ -3,7 +3,7 @@ import { UserApiService } from '../../services/user-api.service';
 import { ApiStorageService } from 'src/app/globalServices/state/api-storage.service';
 import { ActivatedRoute } from '@angular/router';
 import { Params } from '@angular/router';
-import { User } from 'src/app/models/user';
+import { User } from 'src/app/models/interfaces/user';
 
 @Component({
   selector: 'app-user-side',

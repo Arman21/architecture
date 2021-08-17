@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PAGE_URLS as urls } from 'src/environments/environment';
-import { User } from 'src/app/models/user';
+import { User } from 'src/app/models/interfaces/user';
 
 @Component({
   selector: 'app-user-card',

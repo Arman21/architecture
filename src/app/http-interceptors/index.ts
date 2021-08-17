@@ -1,4 +1,4 @@
-import { ProvidersModel } from '../models/providersModel';
+import { ProvidersModel } from '../models/interfaces/providersModel';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HeadersInterceptorService } from '../globalServices/Interceptors/headersInterceptor.service';
 import { ErrorHandlingInterceptorService } from '../globalServices/Interceptors/error-handling-interceptor.service';

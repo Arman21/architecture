@@ -1,6 +1,6 @@
 import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { HttpMethods as methods } from './methods';
+import { HttpMethods as methods } from '../enums/methods';
 
 export class classModel implements HttpInterceptor {
 
