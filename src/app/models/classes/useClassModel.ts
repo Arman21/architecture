@@ -2,7 +2,7 @@ import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/c
 import { Observable } from 'rxjs';
 import { HttpMethods as methods } from '../enums/methods';
 
-export class classModel implements HttpInterceptor {
+export class useClassModel implements HttpInterceptor {
 
   constructor(private readonly _injector?: any) {
 
