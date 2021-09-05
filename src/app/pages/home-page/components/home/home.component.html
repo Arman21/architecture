@@ -1,3 +1,4 @@
-<div class='container-fluid'>
+<div *ngIf='usersList' class='container-fluid'>
   <app-user-card [list]='usersList'></app-user-card>
 </div>
+<app-loading *ngIf='listService.loading$ | async'></app-loading>

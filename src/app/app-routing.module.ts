@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 import { PAGE_URLS as urls } from 'src/environments/environment';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: urls.signUpPage,
+    redirectTo: urls.signInPage,
     pathMatch: 'full'
-  },
-  {
-    path: urls.signUpPage,
-    loadChildren: async (): Promise<any> => (await import (`./pages/sign-up/sign-up.module`)).SignUpModule
   },
   {
     path: urls.signInPage,
     loadChildren: async (): Promise<any> => (await import (`./pages/sign-in/sign-in.module`)).SignInModule
+  },
+  {
+    path: urls.signUpPage,
+    loadChildren: async (): Promise<any> => (await import (`./pages/sign-up/sign-up.module`)).SignUpModule
   },
   {
     path: urls.usersPage,
@@ -32,7 +32,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })],
   exports: [RouterModule]
 })
 

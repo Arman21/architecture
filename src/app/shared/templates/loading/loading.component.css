@@ -1,0 +1,38 @@
+.main {
+  position: relative;
+  height: 100vh;
+  background-color: cyan;
+  animation-name: animation1;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+.spinner-block {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+  background-color: #fff;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.circle {
+  position: absolute;
+  top: 22.5%;
+  left: 22.5%;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-width: .38em !important;
+}
+
+@keyframes animation1 {
+  0% { background-color: cyan; }
+  25% { background-color: rgb(34,235,191); }
+  50% { background-color: rgb(7,231,247); }
+  75% { background-color: cyan; }
+  100% { background-color: rgb(34,235,191); }
+}
+
+
+

@@ -32,8 +32,6 @@ export const PAGE_URLS: PageUrls = {
   signInPage: 'sign-in-page'
 }
 
-
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
